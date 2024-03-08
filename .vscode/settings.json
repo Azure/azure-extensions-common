@@ -2,5 +2,9 @@
     "search.exclude": {
         "**/target": true
     },
-    "lldb.verboseLogging": true
+    "lldb.verboseLogging": true,
+    "rust-analyzer.linkedProjects": [
+        ".\\Cargo.toml",
+        ".\\msi_utils\\Cargo.toml"
+    ]
 }
